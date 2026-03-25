@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Courses</title>
+    <link rel="stylesheet" href="courses-styles.css">
+</head>
+<body>
+    <header>
+        <h1>Available Courses</h1>
+        <button onclick="logout()">Logout</button>
+    </header>
+
+    <div class="courses-container">
+        <div class="course">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, and JavaScript</p>
+            <p class="price">ksh 20000</p>
+            <button onclick="enrollCourse('Web Development')">Enroll</button>
+        </div>
+
+        <div class="course">
+            <h3>Python Programming</h3>
+            <p>Master Python from basics to advanced</p>
+            <p class="price">ksh 12000</p>
+            <button onclick="enrollCourse('Python Programming')">Enroll</button>
+        </div>
+
+        <div class="course">
+            <h3>App Development</h3>
+            <p>Build mobile apps with React Native</p>
+            <p class="price">ksh 17000</p>
+            <button onclick="enrollCourse('App Development')">Enroll</button>
+        </div>
+
+        <div class="course">
+            <h3>Data Science</h3>
+            <p>Learn data analysis and machine learning</p>
+            <p class="price">ksh 15000</p>
+            <button onclick="enrollCourse('Data Science')">Enroll</button>
+        </div>
+
+        <div class="course">
+            <h3>UI/UX Design</h3>
+            <p>Create beautiful user interfaces</p>
+            <p class="price">ksh 13000</p>
+            <button onclick="enrollCourse('UI/UX Design')">Enroll</button>
+        </div>
+
+        <div class="course">
+            <h3>Cloud Computing</h3>
+            <p>Deploy apps on AWS and Azure</p>
+            <p class="price">ksh 27000</p>
+            <button onclick="enrollCourse('Cloud Computing')">Enroll</button>
+        </div>
+    </div>
+
+    <script src="courses-script.js"></script>
+</body>
+</html>
